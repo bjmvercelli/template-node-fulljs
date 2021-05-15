@@ -1,7 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive&display=swap");
+
+html{
+  background-color: black;
+
+  & h1{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+}
+
 *{
   margin: 0;
   padding: 0;
-  background-color: black;
   color: white;
   font-family: 'Recursive', sans-serif;
+  
+}
+
+.menu-list{
+  text-transform: capitalize;
+  margin-left: 10px;
+}
+
+li:before {
+  content:"·";
+  font-size: 20px;
+  vertical-align:middle;
+  line-height:20px;
+  margin-right: 10px;
+}
+
+.content-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.content-joke {
+  margin-top: 20px;
+  text-align: center;
+  background-color: rgba(255, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  
 }

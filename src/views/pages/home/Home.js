@@ -22,14 +22,17 @@ let Home = {
     console.log(jokes)
 
       let view = `
-          <div>
+          <h1>Afya Labs - Chuck Norris</h1>
+          <div class="view">
+          <img src=${jokes.icon_url} class="content-image">
            <ul class="menu-list">
             ${categories.map( (category, index) => (
               `<li class="menu-item" key=${index}>${category}</li>`
             )).join('')}
            </ul>
-            <img src=${jokes.icon_url}>
-            <h1>${jokes.value}</div>
+            <div class="content-joke">
+              <h1>${jokes.value}</div>
+            </div>
           </div>
       `;
 
