@@ -4,6 +4,7 @@ html {
   background-color: black; }
   html h1 {
     text-align: center;
+    margin-top: 15px;
     margin-bottom: 25px; }
 
 * {
@@ -21,7 +22,8 @@ li:before {
   font-size: 20px;
   vertical-align: middle;
   line-height: 20px;
-  margin-right: 10px; }
+  margin-right: 10px;
+  margin-left: 5x; }
 
 .content-image {
   display: block;
